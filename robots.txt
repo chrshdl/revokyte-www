@@ -1,0 +1,12 @@
+# Everything here is public marketing copy; nothing is off limits.
+# The point of this file is the Sitemap line -- without it a crawler
+# only finds the sitemap if it was submitted in Search Console.
+#
+# Root asset, like /logo.svg and /shiftlights.js: one file for the whole
+# site, no locale prefix. The sitemap it points at already lists both
+# locales' pages.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.revokyte.com/sitemap-index.xml
